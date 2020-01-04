@@ -1,0 +1,79 @@
+{
+  "ABC": {
+    "gdp": 1400,
+    "population": 100000,
+    "neighbours": ["XYZ"],
+    "gdp_per_capita": 14000,
+    "democracy": true
+  },
+  "XYZ": {
+    "gdp": 1800,
+    "population": 100000,
+    "neighbours": ["ABC"],
+    "gdp_per_capita": 18000,
+    "democracy": true
+  },
+  "DEF": {
+    "gdp": 1800,
+    "population": 100000,
+    "neighbours": [],
+    "gdp_per_capita": 18000,
+    "democracy": true
+  },
+  "QWE": {
+    "gdp": 1800,
+    "population": 100000,
+    "neighbours": [],
+    "gdp_per_capita": 18000,
+    "democracy": true
+  },
+  "WER": {
+    "gdp": 1800,
+    "population": 100000,
+    "neighbours": [],
+    "gdp_per_capita": 18000,
+    "democracy": true
+  },
+  "ERT": {
+    "gdp": 1800,
+    "population": 100000,
+    "neighbours": [],
+    "gdp_per_capita": 18000,
+    "democracy": true
+  },
+  "RTY": {
+    "gdp": 1800,
+    "population": 100000,
+    "neighbours": [],
+    "gdp_per_capita": 18000,
+    "democracy": true
+  },
+  "TYU": {
+    "gdp": 1800,
+    "population": 100000,
+    "neighbours": [],
+    "gdp_per_capita": 18000,
+    "democracy": true
+  },
+  "YUI": {
+    "gdp": 1800,
+    "population": 100000,
+    "neighbours": [],
+    "gdp_per_capita": 18000,
+    "democracy": true
+  },
+  "UIO": {
+    "gdp": 1800,
+    "population": 100000,
+    "neighbours": [],
+    "gdp_per_capita": 18000,
+    "democracy": true
+  },
+  "IOP": {
+    "gdp": 1800,
+    "population": 100000,
+    "neighbours": [],
+    "gdp_per_capita": 18000,
+    "democracy": false
+  }
+}
