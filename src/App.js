@@ -32,6 +32,7 @@ const App = () => {
   console.log({year})
 
   countries.forEach((country) => country.updateTimeSinceLastConflict())
+  wars.forEach((war) => war.spillover(countryDict))
   wars.forEach((war) => {
     if (!war.expired) {
       const stopped = war.doesThisWarStop(year)
@@ -64,7 +65,7 @@ const App = () => {
   })
 
   const { worldGDP, averageGDP } = calculateWorldGDP(countries)
-  console.log({averageGDP})
+  console.log({wars})
   countries.forEach((country) => country.updateGDP(averageGDP))
   countries.forEach((country) => country.updateMajorPowerStatus(worldGDP))
 
@@ -73,10 +74,15 @@ const App = () => {
       <header className="App-header">
         {year}
         {
-          countries.map((country) => (
-            <div>
-              {JSON.stringify(country.data)}
-            </div>
+          wars.map((war) => (
+            war.expired ?
+              null :
+              (
+                <div key={war.key}>
+                  {[...war.involving].join(' ')}
+                </div>
+              )
+            
           ))  
         }
         <p>

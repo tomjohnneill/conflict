@@ -2,7 +2,7 @@
   "ABC": {
     "gdp": 1400,
     "population": 100000,
-    "neighbours": ["XYZ"],
+    "neighbours": ["XYZ", "DEF"],
     "gdp_per_capita": 14000,
     "democracy": true
   },
@@ -16,21 +16,21 @@
   "DEF": {
     "gdp": 1800,
     "population": 100000,
-    "neighbours": [],
+    "neighbours": ["ABC"],
     "gdp_per_capita": 18000,
     "democracy": true
   },
   "QWE": {
     "gdp": 1800,
     "population": 100000,
-    "neighbours": [],
+    "neighbours": ["WER"],
     "gdp_per_capita": 18000,
     "democracy": true
   },
   "WER": {
     "gdp": 1800,
     "population": 100000,
-    "neighbours": [],
+    "neighbours": ["QWE"],
     "gdp_per_capita": 18000,
     "democracy": true
   },
